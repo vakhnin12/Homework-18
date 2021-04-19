@@ -1,0 +1,34 @@
+button{
+    background-color: chartreuse;
+    box-shadow:  0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    cursor: pointer;
+}
+.disabled {
+    background-color: grey;
+}
+button.disabled{
+    background-color: grey;
+}
+.buttons-list{
+    position: relative;
+    width: 100px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: chartreuse;
+    box-shadow:  0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    left: 300px;
+    cursor: pointer;
+}
+.button-container{
+    list-style: none;
+    margin: 4px;
+}
+.lists{
+    position: absolute;
+    left: 0px;
+    padding-inline-start: 0px;
+    max-height: 360px;
+    overflow-y: scroll;
+    width: 100px;
+}
