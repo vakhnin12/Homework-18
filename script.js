@@ -61,7 +61,6 @@ function createButton(text, classes, id) {
 };
 
 function createChangeList(data) {
-    console.log(data)
     const container = document.createElement("div")
 
     container.innerText = "Choose Page"
